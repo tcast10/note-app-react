@@ -20,7 +20,8 @@ class App extends Component {
 
   toggleNote = () => {
     this.setState({
-      showNote: ! this.state.showNote
+      showNote: ! this.state.showNote,
+      note: {}
     });    
   }
 
